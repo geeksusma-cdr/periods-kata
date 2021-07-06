@@ -1,0 +1,32 @@
+{
+  "name": "periods-kata",
+  "version": "1.0.0",
+  "description": "Using as inspiration that kata done in my public account but this time with typescript + jest https://github.com/geeksusma/periods-example",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint ./src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geeksusma-cdr/periods-kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geeksusma-cdr/periods-kata/issues"
+  },
+  "homepage": "https://github.com/geeksusma-cdr/periods-kata#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}
